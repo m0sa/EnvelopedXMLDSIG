@@ -10,7 +10,8 @@ To run all test permutations run `docker compose up`. The only prerequirement is
 The dockerfile generates a single `sample.xml` which contains an enveloped signature, signed with the private RSA key exported to `key.pem`.
 The [Verifier](/Verifier/Program.cs#L16-L29) application tries to load the signed XML and verify it (with and without the private RSA key).
 Different combinations of the `System.Security.Cryptography.Xml` and dotnet runtime are used.
-The containers also include the [`xmlsig` tool](https://github.com/amdonov/xmlsig) to verify that the generated `sample.xml`` is signed correctly, before attempting to verify it using the .NET `SignedXml` class.
+The containers also include the [`xmlsig` tool](https://github.com/amdonov/xmlsig) to verify that the generated `sample.xml`
+is signed correctly, before attempting to verify it using the .NET `SignedXml` class.
 
 # Debugging
 
