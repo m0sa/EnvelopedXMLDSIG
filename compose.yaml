@@ -1,0 +1,44 @@
+
+services:
+  net6_n6:
+    restart: "no"
+    build:
+      context: .
+      args:
+        DOTNET_TARGET: "6.0"
+        NUGET_VERSION: "6.0.1"
+  net6_n7:
+    restart: "no"
+    build:
+      context: .
+      args:
+        DOTNET_TARGET: "6.0"
+        NUGET_VERSION: "7.0.0"
+  net6_n8:
+    restart: "no"
+    build:
+      context: .
+      args:
+        DOTNET_TARGET: "6.0"
+        NUGET_VERSION: "8.0.0"
+  net8_n6:
+    restart: "no"
+    build:
+      context: .
+      args:
+        DOTNET_TARGET: "8.0"
+        NUGET_VERSION: "6.0.1"
+  net8_n7:
+    restart: "no"
+    build:
+      context: .
+      args:
+        DOTNET_TARGET: "8.0"
+        NUGET_VERSION: "7.0.0"
+  net8_n8:
+    restart: "no"
+    build:
+      context: .
+      args:
+        DOTNET_TARGET: "8.0"
+        NUGET_VERSION: "8.0.0"

@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DebugType>embedded</DebugType>
+    <Configuration>Debug</Configuration>
+    <GenerateFullPaths>true</GenerateFullPaths>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,8 @@
+.git/
+key.pem
+signed.xml
+Dockerfile
+docker-bake.hcl
+compose.yaml
+*/bin/
+*/obj/
